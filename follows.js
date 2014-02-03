@@ -15,8 +15,8 @@
 	var defaultKey		= 'alheO4BHm8CpDDQIaoE4tKt28r4GTHPo76HqDMfcnPteo7WK', // Unique master Xively API key to be used as a default
 		defaultFeeds	= [1116617964], // Comma separated array of Xively Feed ID numbers
 		applicationName	= 'Energy Monitor', // Replaces Xively logo in the header
-		dataDuration	= '1day', // Default duration of data to be displayed // ref: https://xively.com/dev/docs/api/data/read/historical_data/
-		dataInterval	= 0, // Default interval for data to be displayed (in seconds)
+		dataDuration	= '7days', // Default duration of data to be displayed // ref: https://xively.com/dev/docs/api/data/read/historical_data/
+		dataInterval	= 900, // Default interval for data to be displayed (in seconds)
 		dataColor		= '', // CSS HEX value of color to represent data (omit leading #)
 		hideForm		= 1; // To hide input form use value of 1, otherwise set to 0
 
